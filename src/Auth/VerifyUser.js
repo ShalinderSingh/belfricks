@@ -3,6 +3,7 @@ import './verifyUser.css';
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { userTable } from './userTable';
 const VerifyUser = () => {
+    console.log("Done")
 
     return (
         <div className="table-container">
