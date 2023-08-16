@@ -1,0 +1,44 @@
+/* UserStatus.css */
+.user-status {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.user-details li {
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-details li strong {
+  font-weight: bold;
+  color: #007bff;
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Add space between key and value */
+.user-details li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(100% + 10px); /* Adjust the space as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px; /* Adjust the width of the space */
+  height: 1px; /* Adjust the height of the space */
+  background-color: transparent; /* Adjust the color of the space */
+}
